@@ -1,0 +1,18 @@
+{
+    "vpc" : {
+        "vpcName" : "DocDBVPC",
+        "cidrRange" : "10.0.0.0/20",
+        "publicSubnetName" : "DocDBPublic",
+        "isolatedSubnetName" : "DocDBIsolated",
+        "ec2RoleName" : "DocDBC2Role",
+        "ec2InstanceName" : "DocDB-Dev-EC2",
+        "ec2KeyPairName" : "devexp",
+        "secGroupForDocDBSubnet" : "IsolatedSubnetSecGrp",
+        "secGroupForPublicSubnet" : "PublicSubnetSecGrp"
+    },
+    "DocDB": {
+        "dbUserName": "docdbadmin",
+        "sampleDatabaseName" : "AWSDocumentDB",
+        "sampleCollectionName" : "AWSCollections"
+    }
+}
