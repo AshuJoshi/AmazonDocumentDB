@@ -10,6 +10,10 @@ This project setups a simmple single instance [Amazon DocumentDB](https://aws.am
 
 4. [`lib/testDocDB.ts`](./lib/testDocDB.ts) creates resources for testing DocumentDB. It creates a Lambda function in the same Private Subnet where the DocumentDB cluster is created. It also sets up a Rest API with AWS Gateway for testing.
 
+## High Level Architecture Diagram
+
+![Architecture](./docdbarch.png)
+
 ### Prerequisites
 
 1. An [AWS Account](https://signin.aws.amazon.com/signin?redirect_uri=https%3A%2F%2Fportal.aws.amazon.com%2Fbilling%2Fsignup%2Fresume&client_id=signup)
